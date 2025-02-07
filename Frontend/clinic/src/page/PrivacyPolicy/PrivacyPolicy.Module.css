@@ -1,0 +1,75 @@
+/* Main Container */
+.privacy-policy-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Title */
+  .privacy-policy-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* Form Styling */
+  .privacy-policy-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Form Group (each section) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  /* Label for each section */
+  .form-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  /* Text for each section */
+  .form-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-left: 15px;
+  }
+
+  /* Footer Section */
+  .form-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 30px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .privacy-policy-container {
+      width: 90%;
+      padding: 15px;
+    }
+
+    .privacy-policy-title {
+      font-size: 1rem;
+    }
+
+    .form-label {
+      font-size: 0.8rem;
+    }
+
+    .form-text {
+      font-size: 0.8rem;
+      text-align: justify;
+    }
+  }

@@ -1,0 +1,193 @@
+.service-page-container {
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+}
+
+.service-page-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Services Grid */
+.service-page-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Service Card */
+.service-page-card {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-direction: row; /* Align content horizontally */
+}
+
+
+.service-page-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply specific background colors to each service card */
+.service-page-grid .service-page-card:nth-child(1) {
+  background: #ff7f50;
+}
+
+.service-page-grid .service-page-card:nth-child(2) {
+  background: #6a5acd;
+}
+
+.service-page-grid .service-page-card:nth-child(3) {
+  background: #3cb371;
+}
+
+.service-page-grid .service-page-card:nth-child(4) {
+  background: #ff4500;
+}
+
+.service-page-grid .service-page-card:nth-child(5) {
+  background: #1e90ff;
+}
+
+.service-page-grid .service-page-card:nth-child(6) {
+  background: #ffa500;
+}
+
+.service-page-grid .service-page-card:nth-child(7) {
+  background: #1bb0c1;
+}
+
+.service-page-grid .service-page-card:nth-child(8) {
+  background: #e262cc;
+}
+
+/* Adjust the service card content layout */
+.service-page-card div {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Service Image */
+.service-page-image {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 20px;
+  object-fit: fill;
+}
+
+.service-page-content {
+  flex: 1;
+}
+
+.service-page-card:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+/* Service Title */
+.service-page-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+
+/* Service Description */
+.service-page-description {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.service-page-symptoms,
+.service-page-cure {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.service-page-symptoms h4,
+.service-page-cure h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-page-symptoms ul,
+.service-page-cure ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-page-symptoms li,
+.service-page-cure li {
+  font-size: 0.9rem;
+}
+
+.appointment-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #535bed; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.appointment-button:hover {
+  background-color: #1d8e96; /* Darker green */
+}
+
+
+/* Responsive Styles for Mobile Screens */
+@media (max-width: 768px) {
+  /* Stack service cards in a column layout */
+  .service-page-card {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items */
+    text-align: center; /* Center text content */
+    gap: 15px; /* Add spacing between elements */
+    padding: 20px;
+  }
+
+  /* Adjust image size for smaller screens */
+  .service-page-image {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+
+  /* Center-align title and description */
+  .service-page-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .service-page-description {
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: justify;
+  }
+
+ .service-page-text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  }
+}

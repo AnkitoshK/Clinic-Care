@@ -1,0 +1,342 @@
+/* Updated Styles for Contact Page */
+
+.contact-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 2px solid rgb(211, 206, 206);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 3% auto;
+  text-align: center; /* Center-align text */
+  background-color: #fff; /* Add background color for better appearance */
+}
+
+.contact-container h1 {
+  font-size: 1.8em;
+  color: #333; /* Darker color for contrast */
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 1.2em; /* Adjust font size */
+  color: #666; /* Subtle color */
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #e74c3c;
+  margin: 10px auto;
+  width: 60%;
+}
+
+.google-maps-placeholder {
+  margin: 20px 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-details {
+  flex: 1;
+  min-width: 300px;
+  font-size: 1em;
+  color: #444;
+}
+
+.contact-details h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.contact-details p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.contact-details a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-form-contact-us {
+  flex: 1;
+  justify-content: center;
+  min-width: 330px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group-contact-us {
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.form-control-contact-us {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.form-control-contact-us:focus {
+  border-color: #e74c3c;
+  outline: none;
+  box-shadow: 0 0 8px rgba(231, 76, 60, 0.2);
+}
+
+.form-control-textarea-contact-us {
+  height: 80%;
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  resize: none;
+}
+
+.form-control-textarea-contact-us:focus {
+  border-color: #e74c3c;
+  outline: none;
+  box-shadow: 0 0 8px rgba(231, 76, 60, 0.2);
+}
+
+.textarea-contact-us {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submit-button {
+  display: inline-block;
+  width: 50%;
+  padding: 12px;
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #c0392b;
+}
+
+/* Info Cards Section */
+.info-cards {
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.info-card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.form-control textarea {
+  height: 80%;
+}
+.info-card-body {
+  padding: 15px;
+}
+
+.info-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-card-text {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.6;
+}
+
+.info-card-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.info-card-link:hover {
+  color: #c0392b;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+
+/* Tablet Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+    width: 100%; /* Ensures it takes full width on smaller screens */
+  }
+
+  .contact-content {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-details {
+    text-align: center;
+    width: 100%; /* Ensure it takes full width */
+  }
+
+  .contact-form-contact-us {
+    width: 100%;
+    padding: 15px; /* Slightly reduce padding */
+  }
+
+  .contact-container h1 {
+    font-size: 1.5em; /* Adjust heading size */
+  }
+
+  .subheading {
+    font-size:  0.8em;
+  }
+
+  .form-group-contact-us {
+    width: 100%; /* Expand form controls to fit container */
+  }
+
+  .form-control-contact-us {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .submit-button {
+    font-size: 15px; /* Adjust font size for smaller screens */
+    width: 70%; /* Slightly reduce button width */
+  }
+
+  hr {
+    width: 50%; /* Adjust horizontal rule width */
+  }
+
+  .info-cards {
+    gap: 15px; /* Reduce gap between info cards */
+  }
+
+  .info-card {
+    width: 90%; /* Ensure cards are centered and responsive */
+  }
+}
+
+/* Mobile Devices (max-width: 420px) */
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 10px;
+    width: 90%; /* Reduce margin for smaller screens */
+    margin: 5% auto;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Slightly reduce gap for better alignment */
+  }
+
+  .contact-details {
+    text-align: center;
+    width: 50%; /* Full width for details section */
+  }
+
+  .contact-form-contact-us {
+    width: 90%; /* Full width for form */
+    padding: 10px; /* Adjust padding for smaller screen */
+    align-items: center;
+  }
+
+  .form-group-contact-us {
+    width: 100%; /* Full width for form controls */
+  }
+
+  .form-control-contact-us {
+    font-size: 12px; /* Smaller font size for form controls */
+    padding: 8px; /* Adjust padding */
+  }
+
+  .submit-button {
+    font-size: 12px;
+    width: 38%; /* Reduce button width */
+  }
+
+  hr {
+    width: 80%; /* Narrower horizontal rule */
+  }
+
+  .info-cards {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 10px;
+  }
+
+  .info-card {
+    width: 100%; /* Full width for info cards */
+  }
+}
